@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: za.ac.cput.studentaccount.SubjectTest
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 1, Errors: 0, Skipped: 6, Time elapsed: 0.148 s <<< FAILURE! - in za.ac.cput.studentaccount.SubjectTest
-testToString  Time elapsed: 0.086 s  <<< FAILURE!
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 6, Time elapsed: 0.158 s <<< FAILURE! - in za.ac.cput.studentaccount.SubjectTest
+testToString  Time elapsed: 0.104 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <> but was: <Subject{type=null, code=null, name=null}>
 	at za.ac.cput.studentaccount.SubjectTest.testToString(SubjectTest.java:170)
 
