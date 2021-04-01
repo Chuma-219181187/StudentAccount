@@ -70,7 +70,7 @@ public class StudentTest {
         }
        
          @Test
-          public void testDisplayStudentName1() { //This method if the method going tpo fail or not when entering the wrong string name
+          public void testDisplayStudentName1() { //This method if the method going to fail or not when entering the wrong string name
              
             this.student = new Student();
             String studentName = student.displayStudentName1("Chuma", "Nxazonke");
