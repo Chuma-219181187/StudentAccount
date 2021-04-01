@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="za.ac.cput.studentaccount.StudentTest" time="0.193" tests="12" errors="0" skipped="8" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="za.ac.cput.studentaccount.SubjectTest" time="0.05" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -16,10 +16,10 @@
     <property name="user.country" value="ZA"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/mogamadgithr/NetBeansProjects/StudentAccount/target/surefire/surefirebooter16039073637815260401.jar /Users/mogamadgithr/NetBeansProjects/StudentAccount/target/surefire 2021-04-01T20-46-57_326-jvmRun1 surefire16072181861625831764tmp surefire_09332640292830669806tmp"/>
+    <property name="sun.java.command" value="/Users/mogamadgithr/NetBeansProjects/StudentAccount/target/surefire/surefirebooter8549715964859361083.jar /Users/mogamadgithr/NetBeansProjects/StudentAccount/target/surefire 2021-04-01T21-41-00_333-jvmRun1 surefire12109538847218746372tmp surefire_03525646223865453722tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="za.ac.cput.studentaccount.StudentTest"/>
+    <property name="test" value="za.ac.cput.studentaccount.SubjectTest#testFail"/>
     <property name="surefire.test.class.path" value="/Users/mogamadgithr/NetBeansProjects/StudentAccount/target/test-classes:/Users/mogamadgithr/NetBeansProjects/StudentAccount/target/classes:/Users/mogamadgithr/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.3/junit-jupiter-engine-5.6.3.jar:/Users/mogamadgithr/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/mogamadgithr/.m2/repository/org/junit/platform/junit-platform-engine/1.6.3/junit-platform-engine-1.6.3.jar:/Users/mogamadgithr/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/mogamadgithr/.m2/repository/org/junit/platform/junit-platform-commons/1.6.3/junit-platform-commons-1.6.3.jar:/Users/mogamadgithr/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.3/junit-jupiter-api-5.6.3.jar:/Users/mogamadgithr/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/mogamadgithr/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/mogamadgithr"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/mogamadgithr/NetBeansProjects/StudentAccount/target/surefire/surefirebooter16039073637815260401.jar"/>
+    <property name="surefire.real.class.path" value="/Users/mogamadgithr/NetBeansProjects/StudentAccount/target/surefire/surefirebooter8549715964859361083.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.10+8-LTS-162"/>
@@ -63,32 +63,9 @@
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="testGetDepartment" classname="za.ac.cput.studentaccount.StudentTest" time="0">
-    <skipped message="public void za.ac.cput.studentaccount.StudentTest.testGetDepartment() is @Disabled"/>
-  </testcase>
-  <testcase name="testGetSurname" classname="za.ac.cput.studentaccount.StudentTest" time="0">
-    <skipped message="public void za.ac.cput.studentaccount.StudentTest.testGetSurname() is @Disabled"/>
-  </testcase>
-  <testcase name="testDisplayStudentName1" classname="za.ac.cput.studentaccount.StudentTest" time="0.1"/>
-  <testcase name="testSetDepartment" classname="za.ac.cput.studentaccount.StudentTest" time="0">
-    <skipped message="public void za.ac.cput.studentaccount.StudentTest.testSetDepartment() is @Disabled"/>
-  </testcase>
-  <testcase name="testToString" classname="za.ac.cput.studentaccount.StudentTest" time="0">
-    <skipped message="public void za.ac.cput.studentaccount.StudentTest.testToString() is @Disabled"/>
-  </testcase>
-  <testcase name="testGetName" classname="za.ac.cput.studentaccount.StudentTest" time="0">
-    <skipped message="public void za.ac.cput.studentaccount.StudentTest.testGetName() is @Disabled"/>
-  </testcase>
-  <testcase name="infinity" classname="za.ac.cput.studentaccount.StudentTest" time="0.019"/>
-  <testcase name="testSetSurname" classname="za.ac.cput.studentaccount.StudentTest" time="0">
-    <skipped message="public void za.ac.cput.studentaccount.StudentTest.testSetSurname() is @Disabled"/>
-  </testcase>
-  <testcase name="testIdentity" classname="za.ac.cput.studentaccount.StudentTest" time="0.003"/>
-  <testcase name="testEquality" classname="za.ac.cput.studentaccount.StudentTest" time="0.001"/>
-  <testcase name="testDisplayStudentName" classname="za.ac.cput.studentaccount.StudentTest" time="0">
-    <skipped message="public void za.ac.cput.studentaccount.StudentTest.testDisplayStudentName() is @Disabled"/>
-  </testcase>
-  <testcase name="testSetName" classname="za.ac.cput.studentaccount.StudentTest" time="0">
-    <skipped message="public void za.ac.cput.studentaccount.StudentTest.testSetName() is @Disabled"/>
+  <testcase name="testFail" classname="za.ac.cput.studentaccount.SubjectTest" time="0.034">
+    <failure message="Test Invalid" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Test Invalid
+	at za.ac.cput.studentaccount.SubjectTest.testFail(SubjectTest.java:72)
+</failure>
   </testcase>
 </testsuite>
