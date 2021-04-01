@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: za.ac.cput.studentaccount.StudentTest
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 0, Errors: 0, Skipped: 8, Time elapsed: 0.358 s - in za.ac.cput.studentaccount.StudentTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 8, Time elapsed: 0.193 s - in za.ac.cput.studentaccount.StudentTest
