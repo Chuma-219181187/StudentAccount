@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="za.ac.cput.studentaccount.StudentTest" time="0.358" tests="12" errors="0" skipped="8" failures="0">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\27630\Documents\NetBeansProjects\StudentAccount\target\test-classes;C:\Users\27630\Documents\NetBeansProjects\StudentAccount\target\classes;C:\Users\27630\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\27630\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\27630\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\27630\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\27630\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\27630\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Johannesburg"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16\bin"/>
+    <property name="sun.java.command" value="C:\Users\27630\AppData\Local\Temp\surefire5765855980489410600\surefirebooter15535644896159440974.jar C:\Users\27630\AppData\Local\Temp\surefire5765855980489410600 2021-04-01T01-10-40_742-jvmRun1 surefire10640612244661628206tmp surefire_08709125430949358443tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="za.ac.cput.studentaccount.StudentTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\27630\Documents\NetBeansProjects\StudentAccount\target\test-classes;C:\Users\27630\Documents\NetBeansProjects\StudentAccount\target\classes;C:\Users\27630\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\27630\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\27630\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\27630\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\27630\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\27630\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\27630"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-03-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-16"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\27630\Documents\NetBeansProjects\StudentAccount"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\27630\AppData\Local\Temp\surefire5765855980489410600\surefirebooter15535644896159440974.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16+36-2231"/>
+    <property name="user.name" value="27630"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-12.3\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\27630\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\27630\AppData\Local\Temp\"/>
+    <property name="java.version" value="16"/>
+    <property name="user.dir" value="C:\Users\27630\Documents\NetBeansProjects\StudentAccount"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\27630\AppData\Local\Microsoft\WindowsApps;C:\Users\27630\.dotnet\tools;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16+36-2231"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="testGetDepartment" classname="za.ac.cput.studentaccount.StudentTest" time="0">
+    <skipped message="public void za.ac.cput.studentaccount.StudentTest.testGetDepartment() is @Disabled"/>
+  </testcase>
+  <testcase name="testGetSurname" classname="za.ac.cput.studentaccount.StudentTest" time="0">
+    <skipped message="public void za.ac.cput.studentaccount.StudentTest.testGetSurname() is @Disabled"/>
+  </testcase>
+  <testcase name="testDisplayStudentName1" classname="za.ac.cput.studentaccount.StudentTest" time="0.117"/>
+  <testcase name="testSetDepartment" classname="za.ac.cput.studentaccount.StudentTest" time="0">
+    <skipped message="public void za.ac.cput.studentaccount.StudentTest.testSetDepartment() is @Disabled"/>
+  </testcase>
+  <testcase name="testToString" classname="za.ac.cput.studentaccount.StudentTest" time="0">
+    <skipped message="public void za.ac.cput.studentaccount.StudentTest.testToString() is @Disabled"/>
+  </testcase>
+  <testcase name="testGetName" classname="za.ac.cput.studentaccount.StudentTest" time="0">
+    <skipped message="public void za.ac.cput.studentaccount.StudentTest.testGetName() is @Disabled"/>
+  </testcase>
+  <testcase name="infinity" classname="za.ac.cput.studentaccount.StudentTest" time="0.023"/>
+  <testcase name="testSetSurname" classname="za.ac.cput.studentaccount.StudentTest" time="0">
+    <skipped message="public void za.ac.cput.studentaccount.StudentTest.testSetSurname() is @Disabled"/>
+  </testcase>
+  <testcase name="testIdentity" classname="za.ac.cput.studentaccount.StudentTest" time="0.008"/>
+  <testcase name="testEquality" classname="za.ac.cput.studentaccount.StudentTest" time="0.008"/>
+  <testcase name="testDisplayStudentName" classname="za.ac.cput.studentaccount.StudentTest" time="0">
+    <skipped message="public void za.ac.cput.studentaccount.StudentTest.testDisplayStudentName() is @Disabled"/>
+  </testcase>
+  <testcase name="testSetName" classname="za.ac.cput.studentaccount.StudentTest" time="0">
+    <skipped message="public void za.ac.cput.studentaccount.StudentTest.testSetName() is @Disabled"/>
+  </testcase>
+</testsuite>
